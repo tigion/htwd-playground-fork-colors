@@ -17,7 +17,8 @@ In der Datei *colors.json* befinden sich ein Array von Objekten bestehend aus ei
 ```json
 [
   {
-    ...
+    "id": "Name",
+    "color": { "r": 255, "g": 85, "b": 0 }
   },
   {
     "id": "",
@@ -26,7 +27,7 @@ In der Datei *colors.json* befinden sich ein Array von Objekten bestehend aus ei
 ]
 ```
 
-* `id:` ... GitHub-Account oder Name
+* `id:` ... GitHub-Account oder anderer Name
 * `color:`
   * `r:` ... Wert von **rot** zwischen `0` und `255`
   * `g:` ... Wert von **gelb** zwischen `0` und `255`
