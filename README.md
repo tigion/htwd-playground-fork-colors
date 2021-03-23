@@ -32,7 +32,7 @@ In der Datei *colors.json* befinden sich ein Array von Objekten bestehend aus ei
   * `g:` ... Wert von **gelb** zwischen `0` und `255`
   * `b:` ... Wert von **blau** zwischen `0` und `255`
 
-Achtet beim Hinzufügen eines neuen `{ id: ... colors: ... }`-Eintrages darauf, dass sich vor dem letzte Eintrag **ein Komma** und danach **keines** befindet.
+Achtet beim Hinzufügen eines neuen `{ id: ... colors: ... }`-Eintrages darauf, dass sich vor dem letzten Eintrag **ein Komma** und danach **keines** befindet.
 
 ## Vorgehen
 
@@ -40,7 +40,7 @@ Achtet beim Hinzufügen eines neuen `{ id: ... colors: ... }`-Eintrages darauf, 
 2. Führe davon einen lokalen Clone auf deinen Rechner aus.
 3. Erstelle dir einen neuen Branch und wechsle in diesen.
 4. Füge der *colors.json* einen neuen Eintrag mit deinen Werten hinzu. Alternativ passt du einen Eintrag an, bei welchem die `id:` noch leer (`""`) ist.
-5. Nim die Änderung als neuen Commit auf und pushe sie mit dem zugehörigen Branch in dein Repository.
-6. Schlage mit jetzt die Änderung als Pull-Request vor.
+5. Nimm die Änderung als neuen Commit auf und pushe sie mit dem zugehörigen Branch in dein Repository.
+6. Schlage mir jetzt die Änderung als Pull-Request vor.
 7. Ich schaue mir - *undefinierte Verzögerung* - deinen Pull-Request an. Ist er okay, übernehme ich die Änderung und nach kurzer Zeit ist dein Farbkreis zu sehen. Ist er nicht okay hinterlasse ich einen Kommentar.
 8. Ist der Pull-Request erfolgreich von mir übernommen, kann dein Fork (bei nicht gebrauch) gelöscht werden.
