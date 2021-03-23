@@ -19,7 +19,7 @@ function loadColors() {
 
                 // set output
                 if (id != "") {
-                    newInnerHTML += '<span title="' + escapeHtml(id) + '" style="background-color: ' + escapeHtml(rgbColor) + '">';
+                    newInnerHTML += '<span title="' + escapeHtml(id) + '\n' + escapeHtml(rgbColor) + '" style="background-color: ' + escapeHtml(rgbColor) + '">';
                     newInnerHTML += '</span>';
                 }
             });
