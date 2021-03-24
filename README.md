@@ -2,7 +2,8 @@
 
 Das Repository dient im Praktikum als Spielwiese, um **Fork** und **Pull-Request** kennenzulernen. Es ist eine kleine Webanwendung, welche über GitHub Page angezeigt wird und anhand einer JSON-Datei Farbkreise darstellt.
 
-Link zur GitHub Page: https://tigion.github.io/htw-playground-fork-colors/
+- GitHub Page: https://tigion.github.io/htw-playground-fork-colors/
+- Aufgabenstellung im Praktikum: [Teil 6 - Aufgabe 1.2 - Fork mit Pull-Request](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-6.html#_aufgabe_1_2_fork_mit_pull_request)
 
 ## Worum geht es?
 
@@ -10,7 +11,7 @@ Um einen Farbkreis in diesem Repository zu hinterlassen, muss ein Fork mit einem
 
 Dazu muss in einem Pull-Request die JSON-Datei _colors.json_ im Verzeichnis `/data` angepasst werden. Hier wird ein Eintrag mit dem GitHub-Account oder Namen bei `id:` und einer Farbe im rgb-Format bei `color:` hinerlassen.
 
-## Aufbau der _/data/colors.json_ Datei
+## Aufbau der _colors.json_ Datei
 
 In der Datei *colors.json* befinden sich ein Array von Objekten bestehend aus eine ID (`id`) und einer Farbe (`color`):
 
