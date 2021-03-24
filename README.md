@@ -39,9 +39,11 @@ Achtet beim Hinzufügen eines neuen `{ id: ... colors: ... }`-Eintrages darauf, 
 
 1. Forke dieses Repository als Kopie in deinen Account.
 2. Führe davon einen lokalen Clone auf deinen Rechner aus.
-3. Erstelle dir einen neuen Branch und wechsle in diesen.
+3. (optional) Erstelle dir einen neuen Branch und wechsle in diesen.
 4. Füge der *colors.json* einen neuen Eintrag mit deinen Werten hinzu. Alternativ passt du einen Eintrag an, bei welchem die `id:` noch leer (`""`) ist.
 5. Nimm die Änderung als neuen Commit auf und pushe sie mit dem zugehörigen Branch in dein Repository.
 6. Schlage mir jetzt die Änderung als Pull-Request vor.
 7. Ich schaue mir - *undefinierte Verzögerung* - deinen Pull-Request an. Ist er okay, übernehme ich die Änderung und nach kurzer Zeit ist dein Farbkreis zu sehen. Ist er nicht okay hinterlasse ich einen Kommentar.
 8. Ist der Pull-Request erfolgreich von mir übernommen, kann dein Fork (bei nicht gebrauch) gelöscht werden.
+
+Alternativ kann das Editieren direkt auf GitHub im Webbrowser geschehen. Dabei wird automatisch ein Fork mit zugehörigem Pull-Request über einen Änderungsvorschlag (_Propose Changes_) erstellt. Dies ist nur für die Bearbeitung einer einzelnen Datei empfohlen, da für jede angepasste Datei ein Pull-Request erstellt wird.
