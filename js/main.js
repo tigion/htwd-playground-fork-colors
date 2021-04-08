@@ -23,10 +23,11 @@ function loadColors() {
                     newInnerHTML += '</span>';
                 }
             });
-            if (recordCount > 0)
-                document.getElementById("colorRecords").innerHTML = newInnerHTML;
-            else
-                document.getElementById("colorRecords").innerHTML = "No colors found! 😭"
+            if (recordCount == 0)
+                newInnerHTML = 'No colors found! 😭';
+
+            // replace content
+            document.getElementById("colorRecords").innerHTML = newInnerHTML;
         }
     };
     xmlhttp.open("GET", "data/colors.json", true);
