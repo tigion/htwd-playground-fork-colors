@@ -8,7 +8,6 @@ function loadColors() {
             var records = JSON.parse(this.responseText);
             var newInnerHTML = '';
             records.forEach(function (record, index) {
-                recordCount++;
 
                 // get values
                 var id = String(record.id).trim();
@@ -19,12 +18,15 @@ function loadColors() {
 
                 // set output
                 if (id != "") {
+                    recordCount++;
                     newInnerHTML += '<span title="' + escapeHtml(id) + '\n' + escapeHtml(rgbColor) + '" style="background-color: ' + escapeHtml(rgbColor) + '">';
                     newInnerHTML += '</span>';
                 }
             });
             if (recordCount > 0)
                 document.getElementById("colorRecords").innerHTML = newInnerHTML;
+            else
+                document.getElementById("colorRecords").innerHTML = "No colors found! 😭"
         }
     };
     xmlhttp.open("GET", "data/colors.json", true);
