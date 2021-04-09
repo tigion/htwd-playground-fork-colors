@@ -1,6 +1,6 @@
 name: Check colors.json
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   push:
     branches: [ main ]
@@ -24,8 +24,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
       # T1 - check json syntax, TODO: schema
       - name: Check json file syntax (simple)
         run: cat "$JSON_FILE" | jq type
