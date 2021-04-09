@@ -1,0 +1,62 @@
+name: Check colors.json
+
+# Controls when the action will run. 
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/colors.json'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/colors.json'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      JSON_FILE: data/colors.json
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      # T1 - check json syntax, TODO: schema
+      - name: Check json file syntax (simple)
+        run: cat "$JSON_FILE" | jq type
+
+      # T2 - check id
+      - name: Check "id" values
+        run: |
+          result=`cat "$JSON_FILE" | jq -c '.[].id | select(. == "" or . == null)' | wc -l`
+          if [ $result -gt 0 ]; then
+            echo "::warning::Empty IDs found"
+            #echo "::error::Empty IDs found"
+            cat "$JSON_FILE" | jq -c '.[] | select(.id == "" or .id == null)'
+            #exit 1
+          fi
+
+      # T3 - check unique id
+      - name: Check unique "id" values
+        run: |
+          result=`cat "$JSON_FILE" | jq -c '.[].id' | grep -v '""' | uniq -d | wc -l`
+          if [ $result -gt 0 ]; then
+            echo "::error::Repeating IDs found!"
+            cat "$JSON_FILE" | jq -c '.[].id' | grep -v '""' | uniq -d
+            exit 1
+          fi
+
+      # T4 - check color
+      - name: Check "color" values
+        run: |
+          result=`cat "$JSON_FILE" | jq -c '.[].color | select(.r > 255 or .r < 0 or .g > 255 or .g < 0 or .b > 255 or .b < 0 )' | wc -l`
+          if [ $result -gt 0 ]; then
+            echo "::error::Invalid colors found! Values for color{r,g,b} must be between 0 and 255."
+            cat "$JSON_FILE" | jq -c '.[] | select(.color.r > 255 or .color.r < 0 or .color.g > 255 or .color.g < 0 or .color.b > 255 or .color.b < 0 )'
+            exit 1
+          fi
