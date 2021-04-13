@@ -17,6 +17,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   test:
+    name: Test
     runs-on: ubuntu-latest
     env:
       JSON_FILE: data/colors.json
