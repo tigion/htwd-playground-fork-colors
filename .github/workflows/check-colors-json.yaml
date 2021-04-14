@@ -27,9 +27,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout the repository
         uses: actions/checkout@v2
+        
+      # T1 - check if JSON_FILE exists
+      - name: check if '$JSON_FILE' exists
+        run: test -f "$JSON_FILE"
 
-      # T1 - check json syntax, TODO: schema
-      - name: Check json file syntax (simple)
+      # T1 - check json syntax (simple)
+      - name: Check json file syntax
         run: cat "$JSON_FILE" | jq type
 
       # T2 - check id
