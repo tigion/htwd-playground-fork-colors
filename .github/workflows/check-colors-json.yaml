@@ -29,8 +29,8 @@ jobs:
         uses: actions/checkout@v2
         
       # T1 - check if JSON_FILE exists
-      - name: check if '$JSON_FILE' exists
-        run: test -f "$JSON_FILE"
+      - name: Check if json file exists
+        run: test -f "$JSON_FILEx"
 
       # T1 - check json syntax (simple)
       - name: Check json file syntax
