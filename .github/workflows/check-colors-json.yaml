@@ -30,7 +30,7 @@ jobs:
         
       # T1 - check if JSON_FILE exists
       - name: Check if json file exists
-        run: test -f "$JSON_FILEx"
+        run: test -f "$JSON_FILE"
 
       # T1 - check json syntax (simple)
       - name: Check json file syntax
