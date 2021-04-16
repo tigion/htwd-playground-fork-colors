@@ -30,7 +30,7 @@ function loadColors() {
             document.getElementById("colorRecords").innerHTML = newInnerHTML;
         }
     };
-    xmlhttp.open("GET", "data/colors.json", true);
+    xmlhttp.open("GET", "data/colors.json?t="+(Date.now()), true);
     xmlhttp.send();
 }
 
