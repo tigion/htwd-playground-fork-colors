@@ -32,11 +32,11 @@ jobs:
       - name: Check if json file exists
         run: test -f "$JSON_FILE"
 
-      # T1 - check json syntax (simple)
+      # T2 - check json syntax (simple)
       - name: Check json file syntax
         run: cat "$JSON_FILE" | jq type
 
-      # T2 - check id
+      # T3 - check id
       - name: Check "id" values
         run: |
           result=`cat "$JSON_FILE" | jq -c '.[].id | select(. == "" or . == null)' | wc -l`
@@ -47,7 +47,7 @@ jobs:
             #exit 1
           fi
 
-      # T3 - check unique id
+      # T4 - check unique id
       - name: Check unique "id" values
         run: |
           result=`cat "$JSON_FILE" | jq -c '.[].id' | grep -v '""' | uniq -d | wc -l`
@@ -57,7 +57,7 @@ jobs:
             exit 1
           fi
 
-      # T4 - check color
+      # T5 - check color
       - name: Check "color" values
         run: |
           result=`cat "$JSON_FILE" | jq -c '.[].color | select(.r > 255 or .r < 0 or .g > 255 or .g < 0 or .b > 255 or .b < 0 )' | wc -l`
