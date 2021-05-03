@@ -42,6 +42,6 @@ function escapeHtml(text) {
 }
 
 function colorValue(value) {
-    var x = parseInt(value);
+    var x = parseInt(value) || 0;
     return (x < 0) ? 0 : (x > 255) ? 255 : x;
 }
