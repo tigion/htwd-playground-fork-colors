@@ -61,11 +61,18 @@ section {
     padding: 20px 40px;
 }
 
-p#colorRecords {
-    text-align: center;
+section#colorPicker {
+    border-radius: 11px;
+    background-color: rgba(255,255,255,.3);
+    width: 320px;
+    margin: 40px auto 20px;
+    padding: 10px 10px 5px;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,.1);
 }
 
-p#colorRecords span {
+p#colorRecords { text-align: center; }
+
+p#colorRecords span, span#colorPreview {
     display: inline-block;
     overflow: hidden;
     width: 32px;
@@ -76,10 +83,33 @@ p#colorRecords span {
 }
 
 p#colorRecords span:hover {
-    //box-shadow: inset 0px 0px 4px rgba(0,0,0,.5);
     width: 42px;
     height: 42px;
     margin: 3px;
+}
+
+span#colorPreview { margin-bottom: -10px; }
+
+#colorPicker p { text-align: center; }
+
+#colorPicker input {
+    border-radius: 3px;
+    width: 30px;
+    text-align: center;
+    border: none;
+    padding: 2px;
+}
+
+#colorPicker code {
+    font-size: 0.9em;
+    color: #777;
+    padding: 0px 8px;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* --------------------------------------------------------------- */
@@ -89,7 +119,7 @@ footer {
     color: #fff;
     font-size: 12px;
     line-height: 18px;
-    margin: 60px 20px;
+    margin: 20px 20px 0;
 }
 
 footer p {
