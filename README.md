@@ -24,12 +24,18 @@ In der Datei *colors.json* befinden sich ein Array von Objekten bestehend aus ei
     "color": { "r": 255, "g": 85, "b": 0 }
   },
   {
+    "_comment": "Reihe 1 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
     "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   }
 ]
 ```
 
+* `comment:` ... Kommentar für Platz im Praktikum, um unnötige Mergekonflikte zu umgehen
 * `id:` ... GitHub-Account oder anderer Name
 * `color:`
   * `r:` ... Wert von **rot** zwischen `0` und `255`
@@ -43,7 +49,7 @@ Achtet beim Hinzufügen eines neuen `{ id: ... colors: ... }`-Eintrages darauf, 
 1. Forke dieses Repository als Kopie in deinen Account.
 2. Führe davon einen lokalen Clone auf deinen Rechner aus.
 3. (optional) Erstelle dir einen neuen Branch und wechsle in diesen.
-4. Füge der *colors.json* einen neuen Eintrag mit deinen Werten hinzu. Alternativ: Passe einen Eintrag an, bei welchem die `id:` noch leer (`""`) ist.
+4. Passe einen Eintrag entsprechend deines Praktikumplatzes im Attribute `_comment` an oder wähle einen Eintrag, bei welchem die `id:` noch leer (`""`) ist. Alternativ: Füge der *colors.json* einen neuen Eintrag mit deinen Werten hinzu.
 5. Nimm die Änderung als neuen Commit auf und pushe sie mit dem zugehörigen Branch in dein Repository.
 6. Schlage mir jetzt die Änderung als Pull-Request vor.
 7. Ich schaue mir - *undefinierte Verzögerung* - deinen Pull-Request an. Ist er okay, übernehme ich die Änderung und nach kurzer Zeit ist dein Farbkreis zu sehen. Ist er nicht okay hinterlasse ich einen Kommentar.
