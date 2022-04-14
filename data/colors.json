@@ -55,6 +55,18 @@
     "id": "Gabriel",
     "color": { "r": 200, "g": 150, "b": 100 }
   },
+  {
+    "id": "j-anke",
+    "color": { "r": 255, "g": 191, "b": 0 }
+  },
+  {
+    "id": "davidkirchner",
+    "color": { "r": 24, "g": 77, "b": 57 }
+  },
+  {
+    "id": "RaphaelNeubert",
+    "color": { "r": 0, "g": 100, "b": 255 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -94,13 +106,13 @@
   },
   {
     "_comment": "Reihe 2 Platz 2",
-    "id": "davidkirchner",
-    "color": { "r": 24, "g": 77, "b": 57 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 3",
-    "id": "RaphaelNeubert",
-    "color": { "r": 0, "g": 100, "b": 255 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 4",
@@ -176,7 +188,7 @@
   },
   {
     "_comment": "Reihe 4 Platz 6",
-    "id": "j-anke",
-    "color": { "r": 255, "g": 191, "b": 0 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   }
 ]
