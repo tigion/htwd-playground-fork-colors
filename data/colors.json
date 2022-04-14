@@ -31,6 +31,26 @@
     "id": "test",
     "color": { "r": 154, "g": 58, "b": 138  }
   },
+  {
+    "id": "s82099",
+    "color": { "r": 1, "g": 2, "b": 3 }
+  },
+  {
+    "id": "s82719 :)",
+    "color": { "r": 64, "g": 20, "b": 100 }
+  },
+  {
+    "id": "SG-HTW",
+    "color": { "r": 209, "g": 65, "b": 217 }
+  },
+  {
+    "id": "Benjamin Borsch",
+    "color": { "r": 135, "g": 220, "b": 55 }
+  },
+  {
+    "id": "Gabriel",
+    "color": { "r": 200, "g": 150, "b": 100 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -90,8 +110,8 @@
   },
   {
     "_comment": "Reihe 2 Platz 6",
-    "id": "Benjamin Borsch",
-    "color": { "r": 135, "g": 220, "b": 55 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
@@ -106,13 +126,13 @@
   },
   {
     "_comment": "Reihe 3 Platz 3",
-    "id": "s82099",
-    "color": { "r": 1, "g": 2, "b": 3 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 4",
-    "id": "s82719 :)",
-    "color": { "r": 64, "g": 20, "b": 100 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 5",
@@ -132,8 +152,8 @@
   },
   {
     "_comment": "Reihe 4 Platz 2",
-    "id": "SG-HTW",
-    "color": { "r": 209, "g": 65, "b": 217 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 4 Platz 3",
