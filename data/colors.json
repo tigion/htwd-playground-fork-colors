@@ -51,6 +51,10 @@
     "id": "Gabriel",
     "color": { "r": 200, "g": 150, "b": 100 }
   },
+  {
+    "id": "s82501",
+    "color": { "r": 255, "g": 155, "b": 0 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
