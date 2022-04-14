@@ -85,8 +85,8 @@
   },
   {
     "_comment": "Reihe 2 Platz 5",
-    "id": "Gabriel",
-    "color": { "r": 200, "g": 150, "b": 100 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 6",
@@ -132,8 +132,8 @@
   },
   {
     "_comment": "Reihe 4 Platz 2",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "id": "SG-HTW",
+    "color": { "r": 209, "g": 65, "b": 217 }
   },
   {
     "_comment": "Reihe 4 Platz 3",
