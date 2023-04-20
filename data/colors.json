@@ -67,16 +67,28 @@
     "id": "RaphaelNeubert",
     "color": { "r": 0, "g": 100, "b": 255 }
   },
-
   {
-    "_comment": "Reihe 1 Platz 1",
     "id": "TheSkyDog203",
     "color": { "r": 255, "g": 0, "b": 128 }
   },
   {
-    "_comment": "Reihe 1 Platz 2",
     "id": "SF21",
     "color": { "r": 255, "g": 40, "b": 0 }
+  },
+  {
+    "id": "s83787",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
+    "_comment": "Reihe 1 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 1 Platz 3",
@@ -85,7 +97,7 @@
   },
   {
     "_comment": "Reihe 1 Platz 4",
-    "id": "s83787",
+    "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
