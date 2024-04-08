@@ -95,10 +95,34 @@
     "id": "Paul Wentzel",
     "color": { "r": 78, "g": 253, "b": 84 }
   },
+
   {
-    "_comment": "Reihe 1 Platz 3",
     "id": "Loddddde",
     "color": { "r": 100, "g": 129, "b": 30 }
+  },
+  {
+    "id": "jd44444",
+    "color": { "r": 0, "g": 0, "b": 128 }
+  },
+  {
+    "id": "s85499",
+    "color": { "r": 0, "g": 0, "b": 0 }
+  },
+  {
+    "id": "JohannMrt",
+    "color": { "r": 113, "g": 191, "b": 134 }
+  },
+  {
+    "id": "tili7",
+    "color": { "r": 222, "g": 72, "b": 13 }
+  },
+  {
+    "id": "s85507",
+    "color": { "r": 138, "g": 222, "b": 59 }
+  },
+  {
+    "id": "s85492",
+    "color": { "r": 155, "g": 0, "b": 255 }
   },
 
   {
@@ -118,8 +142,8 @@
   },
   {
     "_comment": "Reihe 1 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "id": "leni04",
+    "color": { "r": 200, "g": 40, "b": 30 }
   },
   {
     "_comment": "Reihe 1 Platz 5",
@@ -128,14 +152,14 @@
   },
   {
     "_comment": "Reihe 1 Platz 6",
-    "id": "jd44444",
-    "color": { "r": 0, "g": 0, "b": 128 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
     "_comment": "Reihe 2 Platz 1",
-    "id": "s85499",
-    "color": { "r": 0, "g": 0, "b": 0 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 2",
@@ -153,12 +177,14 @@
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
-    "id": "JohannMrt",
-    "color": { "r": 113, "g": 191, "b": 134 }
+    "_comment": "Reihe 2 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
-    "id": "tili7",
-    "color": { "r": 222, "g": 72, "b": 13 }
+    "_comment": "Reihe 2 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
@@ -178,8 +204,8 @@
   },
   {
     "_comment": "Reihe 3 Platz 4",
-    "id": "s85507",
-    "color": { "r": 138, "g": 222, "b": 59 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 5",
@@ -188,8 +214,8 @@
   },
   {
     "_comment": "Reihe 3 Platz 6",
-    "id": "s85492",
-    "color": { "r": 155, "g": 0, "b": 255 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
