@@ -2,14 +2,14 @@
 
 function loadColors() {
   var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
+  xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       var recordCount = 0;
       var records = JSON.parse(this.responseText);
       var newInnerHTML = "";
 
       // process records
-      records.forEach(function(record, index) {
+      records.forEach(function (record, index) {
         // get id and skip blank ids
         var id = String(record.id).trim();
         if (id == "") return;
@@ -46,13 +46,13 @@ function handleRandomColor(e) {
   const min = 50; // 0
   const max = 255; // 255
   document.getElementById("r").value = colorValue(
-    Math.floor(Math.random() * (max - min)) + min
+    Math.floor(Math.random() * (max - min)) + min,
   );
   document.getElementById("g").value = colorValue(
-    Math.floor(Math.random() * (max - min)) + min
+    Math.floor(Math.random() * (max - min)) + min,
   );
   document.getElementById("b").value = colorValue(
-    Math.floor(Math.random() * (max - min)) + min
+    Math.floor(Math.random() * (max - min)) + min,
   );
   updateColorPreview();
 }
@@ -103,7 +103,7 @@ function escapeHTML(text) {
     '"': "&quot;",
     "'": "&#039;",
   };
-  return text.replace(/[&<>"']/g, function(m) {
+  return text.replace(/[&<>"']/g, function (m) {
     return map[m];
   });
 }

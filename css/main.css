@@ -1,132 +1,139 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 100%;
-    box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
+  width: 100%;
 
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5em;
-    background-color: #f2efe6;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  background-color: #f2efe6;
 }
 
 header,
 section,
 footer {
-    clear: both;
+  clear: both;
 }
 
 /* --------------------------------------------------------------- */
 
 header {
-    text-align: center;
-    margin: 60px 40px 30px;
-    overflow: hidden;
+  text-align: center;
+  margin: 60px 40px 30px;
+  overflow: hidden;
 }
 
 header h1 {
-    font-size: 3.2em;
-    font-weight: 400;
-    line-height: 1.2em;
-    margin: 0 auto;
+  font-size: 3.2em;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin: 0 auto;
 }
 
 header p {
-    font-size: 1.2em;
-    color: rgba(0,0,0,.75);
-    margin-top: 5px;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 5px;
 }
 
 /* --------------------------------------------------------------- */
 
 main {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 section {
-    overflow: hidden;
-    padding: 20px 40px;
+  overflow: hidden;
+  padding: 20px 40px;
 }
 
 section#colorPicker {
-    border-radius: 11px;
-    background-color: rgba(255,255,255,.3);
-    width: 320px;
-    margin: 40px auto 20px;
-    padding: 10px 10px 5px;
-    box-shadow: inset 0px 0px 4px rgba(0,0,0,.1);
+  border-radius: 11px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 320px;
+  margin: 40px auto 20px;
+  padding: 10px 10px 5px;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
 }
 
-p#colorRecords { text-align: center; }
+p#colorRecords {
+  text-align: center;
+}
 
-p#colorRecords span, span#colorPreview {
-    display: inline-block;
-    overflow: hidden;
-    width: 32px;
-    height: 32px;
-    border-radius: 32px;
-    margin: 8px;
-    box-shadow: 0 0 6px rgba(0,0,0,.15);
+p#colorRecords span,
+span#colorPreview {
+  display: inline-block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  margin: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
 p#colorRecords span:hover {
-    width: 42px;
-    height: 42px;
-    margin: 3px;
+  width: 42px;
+  height: 42px;
+  margin: 3px;
 }
 
-span#colorPreview { margin-bottom: -10px; }
+span#colorPreview {
+  margin-bottom: -10px;
+}
 
-#colorPicker p { text-align: center; }
+#colorPicker p {
+  text-align: center;
+}
 
 #colorPicker input {
-    border-radius: 3px;
-    width: 30px;
-    text-align: center;
-    border: none;
-    padding: 2px;
+  border-radius: 3px;
+  width: 30px;
+  text-align: center;
+  border: none;
+  padding: 2px;
 }
 
 #colorPicker code {
-    font-size: 0.9em;
-    color: #777;
-    padding: 0px 8px;
-    border-radius: 3px;
-    margin-top: 10px;
-    display: inline-block;
-    font-family: monospace;
-    white-space: nowrap;
-    overflow: hidden;
+  font-size: 0.9em;
+  color: #777;
+  padding: 0px 8px;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: inline-block;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* --------------------------------------------------------------- */
 
 footer {
-    clear: both;
-    color: #fff;
-    font-size: 12px;
-    line-height: 18px;
-    margin: 20px 20px 0;
+  clear: both;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 20px 20px 0;
 }
 
 footer p {
-    text-align: center;
-    padding: 8px;
+  text-align: center;
+  padding: 8px;
 }
 
 footer a {
-    color: #fff;
+  color: #fff;
 }
