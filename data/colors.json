@@ -132,6 +132,27 @@
     "id": "s86074",
     "color": { "r": 125, "g": 125, "b": 125 }
   },
+  {
+    "id": "s83710",
+    "color": { "r": 253, "g": 223, "b": 93 }
+  },
+  {
+    "id": "Anh Thu Hoang",
+    "color": { "r": 183, "g": 225, "b": 205 }
+  },
+
+  {
+    "id": "Bingus",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "id": "Guhnter",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "id": "Richard",
+    "color": { "r": 238, "g": 130, "b": 238 }
+  }
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -151,7 +172,7 @@
   {
     "_comment": "Reihe 1 Platz 4",
     "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "color": { "r": 200, "g": 40, "b": 30 }
   },
   {
     "_comment": "Reihe 1 Platz 5",
@@ -185,13 +206,14 @@
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
-    "id": "s83710",
-    "color": { "r": 253, "g": 223, "b": 93 }
+    "_comment": "Reihe 2 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 6",
-    "id": "Anh Thu Hoang",
-    "color": { "r": 183, "g": 225, "b": 205 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
@@ -232,12 +254,12 @@
   },
   {
     "_comment": "Reihe 4 Platz 2",
-    "id": "Bingus",
+    "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
-    "_comment": "Gunther",
-    "id": "Guhnter",
+    "_comment": "Reihe 4 Platz 3",
+    "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
@@ -252,7 +274,7 @@
   },
   {
     "_comment": "Reihe 4 Platz 6",
-    "id": "Richard",
-    "color": { "r": 238, "g": 130, "b": 238 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   }
 ]
