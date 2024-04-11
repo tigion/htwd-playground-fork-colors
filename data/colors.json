@@ -153,6 +153,14 @@
     "id": "Richard",
     "color": { "r": 238, "g": 130, "b": 238 }
   },
+  {
+    "id": "s85610",
+    "color": { "r": 69, "g": 47, "b": 51 }
+  },
+  {
+    "id": "s85265",
+    "color": { "r": 247, "g": 77, "b": 77 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -172,7 +180,7 @@
   {
     "_comment": "Reihe 1 Platz 4",
     "id": "",
-    "color": { "r": 200, "g": 40, "b": 30 }
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 1 Platz 5",
@@ -187,13 +195,13 @@
 
   {
     "_comment": "Reihe 2 Platz 1",
-    "id": "s85610",
-    "color": { "r": 69, "g": 47, "b": 51 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 2",
-    "id": "s85265",
-    "color": { "r": 247, "g": 77, "b": 77 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 3",
