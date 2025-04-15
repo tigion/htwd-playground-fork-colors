@@ -63,17 +63,17 @@
 
   {
     "_comment": "Reihe 3 Platz 1",
-    "id": "s85594",
-    "color": { "r": 12, "g": 114, "b": 255 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 2",
-    "id": "s?????",
-    "color": { "r": 5, "g": 55, "b": 255 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 3",
-    "id": "s83791",
+    "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
