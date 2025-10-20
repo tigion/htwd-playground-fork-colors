@@ -7,7 +7,7 @@ kennenzulernen. Es ist eine kleine Webanwendung, welche über GitHub Page angeze
 wird und anhand einer JSON-Datei Farbkreise darstellt.
 
 - GitHub Page: <https://tigion.github.io/htwd-playground-fork-colors/>
-- Aufgabenstellung im Praktikum: [Teil 8 - Aufgabe 2.1 - Fork mit Pull-Request](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-08.html#_aufgabe_2_1_fork_mit_pull_request)
+- Aufgabenstellung im Praktikum: [Teil 9 - Aufgabe 2.1 - Fork mit Pull-Request](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-09.html#_aufgabe_2_1_fork_mit_pull_request)
 
 ## Worum geht es?
 
