@@ -184,6 +184,10 @@
     "id": "s83791",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
+  {
+    "id": "MasterOfDevilLP | s86423",
+    "color": { "r": 225, "g": 0, "b": 100 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -228,8 +232,8 @@
   },
   {
     "_comment": "Reihe 2 Platz 3",
-    "id": "MasterOfDevilLP | s86423",
-    "color": { "r": 225, "g": 0, "b": 100 }
+    "id": "",
+    "color": { "r": 225, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 4",
