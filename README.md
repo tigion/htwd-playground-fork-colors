@@ -15,13 +15,20 @@ Um einen Farbkreis in diesem Repository zu hinterlassen, muss ein Fork mit einem
 Pull-Request durchgeführt werden.
 
 Dazu muss in einem Pull-Request die JSON-Datei _colors.json_ im Verzeichnis
-`/data` angepasst werden. Hier wird ein Eintrag mit dem GitHub-Account oder
-Namen bei `id:` und einer Farbe im rgb-Format bei `color:` hinerlassen.
+`/data` entsprechend ihres Sitzplatzes im Praktikum angepasst werden. Hier wird
+ein Eintrag mit dem GitHub-Account oder Namen bei `id:` und einer Farbe im
+rgb-Format bei `color:` hinterlassen.
 
 ## Aufbau der _colors.json_ Datei
 
 In der Datei _colors.json_ befinden sich ein Array von Objekten bestehend aus
-eine ID (`id`) und einer Farbe (`color`):
+einem zu ignorierenden Kommentar (`_comment`), einer ID (`id`) und einer Farbe
+(`color`):
+
+> [!NOTE]
+> Am Ende der _colors.json_ Datei befinden sich vorbereitete leere Einträge.
+> Der zu nutzende Eintrag entsprechend des Platzes im Praktikum ist mit einem
+> Kommentar (`_comment`) versehen.
 
 ```json
 [
@@ -29,19 +36,21 @@ eine ID (`id`) und einer Farbe (`color`):
     "id": "Name",
     "color": { "r": 255, "g": 85, "b": 0 }
   },
+
   {
     "_comment": "Reihe 1 Platz 1",
     "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
+    "_comment": "Reihe 2 Platz 1",
     "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
   }
 ]
 ```
 
-- `comment:` ... Kommentar für Platz im Praktikum,
+- `_comment:` ... Kommentar für Platz im Praktikum,
   um unnötige Mergekonflikte zu umgehen
 - `id:` ... GitHub-Account oder anderer Name
 - `color:`
@@ -55,7 +64,7 @@ dass sich vor dem letzten Eintrag **ein Komma** und danach **keines** befindet.
 ## Vorgehen
 
 1. Forke dieses Repository als Kopie in deinen Account.
-2. Führe davon einen lokalen Clone auf deinen Rechner aus.
+2. Clone es lokal auf deinen Rechner.
 3. (optional) Erstelle dir einen neuen Branch und wechsle in diesen.
 4. Passe einen Eintrag entsprechend deines Praktikumplatzes im Attribute
    `_comment` an oder wähle einen Eintrag, bei welchem die `id:` noch leer
