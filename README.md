@@ -22,33 +22,39 @@ rgb-Format bei `color:` hinterlassen.
 ## Aufbau der _colors.json_ Datei
 
 In der Datei _colors.json_ befinden sich ein Array von Objekten bestehend aus
-einem zu ignorierenden Kommentar (`_comment`), einer ID (`id`) und einer Farbe
-(`color`):
-
-> [!NOTE]
-> Am Ende der _colors.json_ Datei befinden sich vorbereitete leere Einträge.
-> Der zu nutzende Eintrag entsprechend des Platzes im Praktikum ist mit einem
-> Kommentar (`_comment`) versehen.
+einer ID (`id`) und einer Farbe (`color`):
 
 ```json
 [
+  ...
   {
     "id": "Name",
     "color": { "r": 255, "g": 85, "b": 0 }
   },
-
-  {
-    "_comment": "Reihe 1 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  }
+  ...
 ]
 ```
+
+> [!NOTE]
+> Am Ende der _colors.json_ Datei befinden sich vorbereitete leere Einträge zur
+> Verwendung im Praktikum. Der zu nutzende Eintrag, entsprechend des Platzes im
+> Praktikum, ist mit einem Kommentar (`_comment`) gekennzeichnet:
+>
+> ```json
+> [
+>   {
+>     "_comment": "Reihe 1 Platz 1",
+>     "id": "",
+>     "color": { "r": 255, "g": 255, "b": 255 }
+>   },
+>   {
+>     "_comment": "Reihe 2 Platz 1",
+>     "id": "",
+>     "color": { "r": 255, "g": 255, "b": 255 }
+>   },
+>   ...
+> ]
+> ```
 
 - `_comment:` ... Kommentar für Platz im Praktikum,
   um unnötige Mergekonflikte zu umgehen
