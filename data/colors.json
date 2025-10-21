@@ -196,6 +196,10 @@
     "id": "minadr0id",
     "color": { "r": 145, "g": 75, "b": 230 }
   },
+  {
+    "id": "s86462 | Computer_Freak_2004",
+    "color": { "r": 0, "g": 100, "b": 232 }
+  },
 
   {
     "_comment": "Reihe 1 Platz 1",
@@ -255,8 +259,8 @@
   },
   {
     "_comment": "Reihe 2 Platz 6",
-    "id": "s86462 | Computer_Freak_2004",
-    "color": { "r": 0, "g": 100, "b": 232 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
 
   {
