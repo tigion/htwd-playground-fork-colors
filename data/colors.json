@@ -226,9 +226,8 @@
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
-    "_comment": "Reihe 2 Platz 2",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "id": "M_was_here",
+    "color": { "r": 66, "g": 92, "b": 63 }
   },
   {
     "_comment": "Reihe 2 Platz 3",
