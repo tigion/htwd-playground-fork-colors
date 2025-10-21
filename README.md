@@ -72,10 +72,20 @@ dass sich vor dem letzten Eintrag **ein Komma** und danach **keines** befindet.
 1. Forke dieses Repository als Kopie in deinen Account.
 2. Clone es lokal auf deinen Rechner.
 3. (optional) Erstelle dir einen neuen Branch und wechsle in diesen.
-4. Passe einen Eintrag entsprechend deines Praktikumplatzes im Attribute
-   `_comment` an oder wähle einen Eintrag, bei welchem die `id:` noch leer
-   (`""`) ist. Alternativ: Füge der _colors.json_ einen neuen Eintrag mit
-   deinen Werten hinzu.
+4. Passe einen Eintrag entsprechend deines Platzes im Praktikum (siehe Attribute
+   `_comment`) an.
+
+   ```json
+   {
+     "_comment": "Reihe 2 Platz 1",
+     "id": "my_name_or_account",
+     "color": { "r": 12, "g": 34, "b": 45 }
+   }
+   ```
+
+   Alternativ: Füge der _colors.json_ **am Ende** einen neuen Eintrag mit
+   deinen Werten hinzu (dies kann zu merge-Konflikten führen).
+
 5. Nimm die Änderung als neuen Commit auf und pushe sie mit dem zugehörigen
    Branch in dein Repository.
 6. Schlage mir jetzt die Änderung als Pull-Request vor.
