@@ -200,7 +200,10 @@
     "id": "s86462 | Computer_Freak_2004",
     "color": { "r": 0, "g": 100, "b": 232 }
   },
-
+  {
+    "id": "s87089",
+    "color": { "r": 44, "g": 44, "b": 44 }
+  },
   {
     "_comment": "Reihe 1 Platz 1",
     "id": "",
