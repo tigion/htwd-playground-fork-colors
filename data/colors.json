@@ -274,7 +274,7 @@
   },
   {
     "_comment": "Reihe 2 Platz 5",
-    "id": "",
+    "id": "Muuurius",
     "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
@@ -374,9 +374,5 @@
     "_comment": "Reihe 5 Platz 6",
     "id": "",
     "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-     "id": "Marius",
-     "color": { "r": 54, "g": 222, "b": 214 }
-   }
+  }
 ]
