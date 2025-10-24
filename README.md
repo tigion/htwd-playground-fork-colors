@@ -1,6 +1,6 @@
 # HTW | Playground: Fork Colors
 
-[![Check colors.json](https://github.com/tigion/htw-playground-fork-colors/actions/workflows/check-colors-json.yaml/badge.svg)](https://github.com/tigion/htw-playground-fork-colors/actions/workflows/check-colors-json.yaml)
+[![Check colors.json](https://github.com/tigion/htwd-playground-fork-colors/actions/workflows/check-colors-json.yaml/badge.svg)](https://github.com/tigion/htwd-playground-fork-colors/actions/workflows/check-colors-json.yaml)
 
 Das Repository dient im Praktikum als Spielwiese, um **Fork** und **Pull-Request**
 kennenzulernen. Es ist eine kleine Webanwendung, welche über GitHub Page angezeigt

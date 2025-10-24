@@ -95,7 +95,6 @@
     "id": "Paul Wentzel",
     "color": { "r": 78, "g": 253, "b": 84 }
   },
-
   {
     "id": "Loddddde",
     "color": { "r": 100, "g": 129, "b": 30 }
@@ -237,8 +236,8 @@
 
   {
     "_comment": "Reihe 2 Platz 1",
-    "id": "s88687",
-    "color": { "r": 54, "g": 161, "b": 221 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 2",
@@ -248,7 +247,7 @@
   {
     "_comment": "Reihe 2 Platz 3",
     "id": "",
-    "color": { "r": 225, "g": 255, "b": 255 }
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 2 Platz 4",
@@ -283,13 +282,13 @@
   },
   {
     "_comment": "Reihe 3 Platz 4",
-    "id": "s86261",
-    "color": { "r": 50, "g": 140, "b": 87 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 5",
-    "id": "Enna",
-    "color": { "r": 255, "g": 0, "b": 100 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 6",
@@ -309,8 +308,8 @@
   },
   {
     "_comment": "Reihe 4 Platz 3",
-    "id": "Tobi 87094",
-    "color": { "r": 68, "g": 225, "b": 175 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 4 Platz 4",
