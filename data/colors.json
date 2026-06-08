@@ -1,5 +1,160 @@
 [
   {
+    "_comment": "Reihe 1 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 3",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 4",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 1 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
+    "_comment": "Reihe 2 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 2 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 2 Platz 3",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 2 Platz 4",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 2 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 2 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
+    "_comment": "Reihe 3 Platz 1",
+    "id": "",
+    "color": { "r": 20, "g": 125, "b": 3 }
+  },
+  {
+    "_comment": "Reihe 3 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 0, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 3 Platz 3",
+    "id": "",
+    "color": { "r": 50, "g": 100, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 3 Platz 4",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 3 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 3 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
+    "_comment": "Reihe 4 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 4 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 4 Platz 3",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 4 Platz 4",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 4 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 4 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
+    "_comment": "Reihe 5 Platz 1",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 5 Platz 2",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 5 Platz 3",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 5 Platz 4",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 5 Platz 5",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+  {
+    "_comment": "Reihe 5 Platz 6",
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
+  },
+
+  {
     "id": "jochkata",
     "color": { "r": 125, "g": 125, "b": 125 }
   },
@@ -267,81 +422,23 @@
     "id": "wangjunyan2018",
     "color": { "r": 255, "g": 255, "b": 0 }
   },
-
   {
-    "_comment": "Reihe 1 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 1 Platz 2",
-    "id": "NataliiaTsurkanHTWD",
-    "color": { "r": 255, "g": 247, "b": 233 }
-  },
-  {
-    "_comment": "Reihe 1 Platz 3",
     "id": "lisayoko",
     "color": { "r": 255, "g": 0, "b": 0 }
   },
   {
-    "_comment": "Reihe 1 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 1 Platz 5",
     "id": "fenzldino",
     "color": { "r": 240, "g": 255, "b": 205 }
   },
   {
-    "_comment": "Reihe 1 Platz 6",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-
-  {
-    "_comment": "Reihe 2 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 2",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 3",
-    "id": "s88181",
-    "color": { "r": 130, "g": 230, "b": 130 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 5",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 2 Platz 6",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-
-  {
-    "_comment": "Reihe 3 Platz 1",
     "id": "s88176",
     "color": { "r": 20, "g": 125, "b": 3 }
   },
   {
-    "_comment": "Reihe 3 Platz 2",
     "id": "s88418",
     "color": { "r": 255, "g": 0, "b": 255 }
   },
   {
-    "_comment": "Reihe 3 Platz 3",
     "id": "Vincent",
     "color": { "r": 50, "g": 100, "b": 255 }
   },
@@ -350,80 +447,11 @@
     "color": { "r": 255, "g": 100, "b": 45 }
   },
   {
-    "_comment": "Reihe 2 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "id": "s88181",
+    "color": { "r": 130, "g": 230, "b": 130 }
   },
   {
-    "_comment": "Reihe 3 Platz 5",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 3 Platz 6",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-
-  {
-    "_comment": "Reihe 4 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 4 Platz 2",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 4 Platz 3",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 4 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 4 Platz 5",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 4 Platz 6",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-
-  {
-    "_comment": "Reihe 5 Platz 1",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 5 Platz 2",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 5 Platz 3",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 5 Platz 4",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 5 Platz 5",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
-  },
-  {
-    "_comment": "Reihe 5 Platz 6",
-    "id": "",
-    "color": { "r": 255, "g": 255, "b": 255 }
+    "id": "NataliiaTsurkanHTWD",
+    "color": { "r": 255, "g": 247, "b": 233 }
   }
 ]
