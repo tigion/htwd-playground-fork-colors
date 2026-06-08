@@ -63,13 +63,13 @@
 
   {
     "_comment": "Reihe 3 Platz 1",
-    "id": "Nunorninn",
-    "color": { "r": 76, "g": 230, "b": 120 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 2",
     "id": "",
-    "color": { "r": 255, "g": 0, "b": 255 }
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 3",
@@ -83,8 +83,8 @@
   },
   {
     "_comment": "Reihe 3 Platz 5",
-    "id": "El-Assassin",
-    "color": { "r": 127, "g": 255, "b": 230 }
+    "id": "",
+    "color": { "r": 255, "g": 255, "b": 255 }
   },
   {
     "_comment": "Reihe 3 Platz 6",
@@ -453,5 +453,13 @@
   {
     "id": "NataliiaTsurkanHTWD",
     "color": { "r": 255, "g": 247, "b": 233 }
+  },
+  {
+    "id": "Nunorninn",
+    "color": { "r": 76, "g": 230, "b": 120 }
+  },
+  {
+    "id": "El-Assassin",
+    "color": { "r": 127, "g": 255, "b": 230 }
   }
 ]
